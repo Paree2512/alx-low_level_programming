@@ -2,14 +2,14 @@
 
 /**
  * _isupper - Uppercase letters
- * @l: letter to check
+ * @c: letter to check
  *
  * Return: 0 or 1
  */
 
-int _isupper(int l)
+int _isupper(int c)
 {
-	if (l >= 'A' && l <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
